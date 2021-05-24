@@ -1,0 +1,19 @@
+{
+  "name": "dh-thread",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Klaus Herberth <klaus.herberth@uni-konstanz.de>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start:thread": "THREAD=1 node --no-deprecation src/index.js",
+    "start:tree": "node --no-deprecation src/index.js",
+    "start:star": "THREAD=1 node --no-deprecation src/Star/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^15.0.3",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
